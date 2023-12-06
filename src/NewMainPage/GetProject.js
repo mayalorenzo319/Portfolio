@@ -14,6 +14,7 @@ import {
   spriterun,
   prototype_radio,
   explanation,
+  trussbust1,
 } from "../images";
 // import "../MainPage/App.css";
 import "./Project.css";
@@ -36,6 +37,40 @@ export function CurrentWaterSensors() {
     icon: updatedwatersensoricon,
   });
 }
+export function TrussBust() {
+  return OnePager({
+    projectTitle: "",
+    problem: "",
+    solution: "",
+    image1: trussbust1,
+    execution: ["",""],
+    images: [trussbust1, true, trussbust1, false],
+    icon: updatedwatersensoricon,
+  })
+}
+export function Project2() {
+  return OnePager({
+    projectTitle: "",
+    problem: "",
+    solution: "",
+    image1: the3sensors,
+    execution: ["",""],
+    images: [updatedsensor, false, mapexample, false],
+    icon: updatedwatersensoricon,
+  })
+}
+export function Project3() {
+  return OnePager({
+    projectTitle: "",
+    problem: "",
+    solution: "",
+    image1: the3sensors,
+    execution: ["",""],
+    images: [updatedsensor, false, mapexample, false],
+    icon: updatedwatersensoricon,
+  })
+}
+
 export function MachineManager() {
   return OnePager({
     projectTitle: "Makerspace Machine Manager",

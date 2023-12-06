@@ -6,6 +6,7 @@ import {
   NextFavoriteArtist,
   JoustRemake,
   MoireCapstone,
+  TrussBust,
 } from "./GetProject";
 import Resume from "./Resume";
 import NewMainPage from "./NewMainPage";
@@ -24,6 +25,7 @@ export default function GetRoutes() {
       <Route path="joust-remake" element={<JoustRemake />} />
       <Route path="moire" element={<MoireCapstone />} />
       <Route path="china-wall-moment" element={<ChinaWallMoment />} />
+      <Route path="truss-bust" element={<TrussBust />} />
       {/*<Route path="double-pendulum-project" element={<DoublePendulum />} /> */}
     </Routes>
   );

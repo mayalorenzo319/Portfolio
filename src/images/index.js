@@ -24,6 +24,7 @@ import spriterun from "./spriterun.gif";
 import prototype from "./prototype.JPG";
 import prototype_radio from "./prototype_radio.JPG";
 import explanation from "./explanation.png";
+import trussbust1 from './trussbust1.HEIC';
 
 export {
   filelines,
@@ -52,4 +53,5 @@ export {
   prototype,
   prototype_radio,
   explanation,
+  trussbust1,
 };

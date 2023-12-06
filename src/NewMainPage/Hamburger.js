@@ -62,6 +62,13 @@ export default function Hamburger() {
                 value="Joust Remake"
               />
             </a>
+            <a href="/truss-bust">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Truss Bust"
+              />
+            </a>
           </ul>
         </nav>
       </label>

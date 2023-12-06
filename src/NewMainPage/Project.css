@@ -69,7 +69,7 @@
 }
 
 .information-title h3 {
-  color: hsl(20, 87%, 60%);
+  color: var(--pop-color);
   margin: 0;
   font-size: min(2.5vw, 40px);
 }

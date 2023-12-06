@@ -7,6 +7,7 @@ import {
   nextfavartist2,
   joustremakeimg,
   prototype,
+  trussbust1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -17,6 +18,18 @@ function Projects() {
     <div className="projects">
       <h1 align="middle">Projects</h1>
       <div className="project-container" align="middle">
+      <div className="project-item">
+          <NavLink className="project-button" to="/truss-bust">
+            <h5 className="project-desc">Truss Bust</h5>
+            <input
+              type="image"
+              alt="none :("
+              className="project"
+              id="tall"
+              src={trussbust1}
+            />
+          </NavLink>
+        </div>
         <div className="project-item">
           <NavLink className="project-button" to="/moire">
             <h5 className="project-desc">Moiré Sensor Nodes</h5>

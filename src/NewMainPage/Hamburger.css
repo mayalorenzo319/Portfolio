@@ -1,10 +1,13 @@
+/* 984447, add9f4, 476c9b, 468c98, 101419 */
 :root {
   --scale: 0.88235;
   --space: 5px;
-  --back: #022449;
-  --menu-color: #022449;
-  --border-color: #022449;
-  --burger-hover: #55bdca;
+  --back: #101419;
+  --menu-color: #101419;
+  --border-color: #101419;
+  --burger-hover: #add9f4;
+
+  --text-color-burger: #add9f4;
 }
 /* TODO: I am going to try to help with colors to make sure that they are easy to update */
 
@@ -59,7 +62,7 @@
 }
 
 .menu-label2 {
-  color: var(--text-color);
+  color: var(--text-color-burger);
   font-family: var(--font);
   font-size: 24px;
   text-align: left;
@@ -97,7 +100,7 @@
   margin-left: 20px;
   z-index: 2;
 
-  --line-color: var(--text-color);
+  --line-color: var(--text-color-burger);
   /* border: 1px solid black; */
 }
 
@@ -135,7 +138,7 @@
 }
 
 #hamburger-menu h3 {
-  color: var(--text-color);
+  color: var(--text-color-burger);
   font-size: 2.5rem;
 }
 
@@ -149,7 +152,7 @@
 }
 
 #hamburger-menu a {
-  color: var(--text-color);
+  color: var(--text-color-burger);
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -189,7 +192,7 @@
   height: 5px;
   border-radius: 6px;
   margin-top: 7px;
-  background-color: var(--text-color);
+  background-color: var(--text-color-burger);
   transform: rotate(45deg);
 }
 .line3 {
@@ -197,7 +200,7 @@
   height: 5px;
   border-radius: 6px;
   margin-top: 7px;
-  background-color: var(--text-color);
+  background-color: var(--text-color-burger);
   transform: rotate(-45deg) translateY(-9px) translateX(8px);
 }
 
@@ -222,7 +225,7 @@
   border-radius: 1.5px;
   top: -15px;
   left: 2.5%;
-  background-color: var(--text-color);
+  background-color: var(--text-color-burger);
 }
 
 @media (max-width: 500px) {

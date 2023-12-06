@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "./Projects";
 
 import { filelines, githubicon, linkedin } from "../images";
-import resume from "../documents/resume.pdf";
+import resume from "../documents/resume_maya.pdf";
 import ToolTip from "@mui/material/Tooltip";
 
 function NewMainPage() {
@@ -15,7 +15,7 @@ function NewMainPage() {
           <div className="secondary-container">
             <div className="portfolio-welcome-message">
               {/* TODO: Change these to be what match with your information*/}
-              <h2>Hi, I'm Maddie Wisinski!</h2>
+              <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
                 I'm a Senior at Tulane University, graduating in Spring of 2024
                 with a BSE in Engineering Physics and Computer Science
@@ -44,7 +44,7 @@ function NewMainPage() {
                 <div>
                   <p>LinkedIn</p>
                   {/* TODO: Change linkedin link */}
-                  <a href="https://www.linkedin.com/in/maddie-wisinski/">
+                  <a href="https://www.linkedin.com/in/maya-lorenzo/">
                     <ToolTip title="View LinkedIn">
                       <img
                         alt="none :("
@@ -82,7 +82,7 @@ function NewMainPage() {
           <div className="secondary-container">
             <div className="portfolio-welcome-message">
               {/* TODO: Change these to be what match with your information*/}
-              <h2>Hi, I'm Maddie Wisinski!</h2>
+              <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
                 I'm a Senior at Tulane University, graduating in Spring of 2024
                 with a BSE in Engineering Physics and Computer Science
@@ -110,7 +110,7 @@ function NewMainPage() {
                 <div>
                   <p>LinkedIn</p>
                   {/* TODO: Change linkedin link*/}
-                  <a href="https://www.linkedin.com/in/maddie-wisinski/">
+                  <a href="https://www.linkedin.com/in/maya-lorenzo/">
                     <ToolTip title="View LinkedIn">
                       <img
                         alt="none :("

@@ -25,17 +25,20 @@
   font-stretch: normal;
 }
 
+/* ED6A5A, F4F1BB, 9bC1BC, E6EBE0, 36C9C6 */
+/* 984447, add9f4, 476c9b, 468c98, 101419 */
 :root {
-  --text-color: #c8eff9;
+  --text-color: #476c9b;
   /* --font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   --font: "Montserrat", "Source Sans Pro", "Albori Sans-Serif";
   --whole-background: var(--text-color);
-  --whole-text-color: #022449;
+  --whole-text-color: #c1e3f8;
   --project-text-color: rgb(21, 1, 1);
   --project-background: #bb6771;
   --project-shadow: rgb(145, 118, 118);
-  --header-background: #022449;
-  --about-me-back: #55bdca;
+  --header-background: #101419;
+  --about-me-back: #468c98;
+  --pop-color: #e3555a;
 }
 .mobile-display {
   display: none;
@@ -90,7 +93,7 @@
 
 .projects {
   justify-content: center;
-  color: #f27d42;
+  color: var(--pop-color);
   font-size: min(3.5vw, 18px);
 }
 .project-container {
@@ -148,7 +151,7 @@
 .github-repo-link {
   text-decoration: none;
   font-weight: bold;
-  color: #f27d42;
+  color: var(--pop-color);
 }
 .github-repo-link:hover {
   font-weight: bold;
@@ -212,16 +215,16 @@
     outline: none;
   }
   100% {
-    outline: 2px solid #f27d42;
+    outline: 2px solid var(--pop-color);
   }
 }
 .project-button:hover {
   text-decoration: underline;
-  color: #f27d42;
+  color: var(--pop-color);
 }
 .project-button {
   text-decoration: none;
-  color: #f27d42;
+  color: var(--pop-color);
 }
 
 @media (max-width: 750px) {

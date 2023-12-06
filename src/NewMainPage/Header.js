@@ -10,7 +10,7 @@ function Header() {
       <NavLink className="nav-link" to="/">
         <button type="checkbox" className="name-box">
           {/* TODO: Your name*/}
-          Maddie Wisinski
+          Maya Lorenzo
         </button>
       </NavLink>
     </div>
