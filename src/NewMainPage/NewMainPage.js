@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from "./Projects";
 
-import { filelines, githubicon, linkedin } from "../images";
+import { filelines, linkedin } from "../images";
 import resume from "../documents/resume_maya.pdf";
 import ToolTip from "@mui/material/Tooltip";
 
@@ -17,9 +17,10 @@ function NewMainPage() {
               {/* TODO: Change these to be what match with your information*/}
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
-                I'm a Senior at Tulane University, graduating in Spring of 2024
-                with a BSE in Engineering Physics and Computer Science
+                I'm a Junior at Tulane University, graduating in Spring of 2025
+                with a BSE in Engineering Physics and certificate in Mechanical Engineering currently looking for internships in the NY Metro Area
               </p>
+              <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
               {/* TODO: You probably don't want this line to be like this */}
               <span id="desc">
                 I have designed this website using ReactJS, HTML, and CSS. The
@@ -55,10 +56,10 @@ function NewMainPage() {
                     </ToolTip>
                   </a>
                 </div>
-                <div>
+                {/* <div>
                   <p>GitHub</p>
                   {/* TODO: Find something more relevant, I will help you add it */}
-                  <a href="https://www.github.com/MadBeignet">
+                  {/* <a href="https://www.github.com/MadBeignet"> 
                     <ToolTip title="View Github">
                       <img
                         alt="none :("
@@ -68,7 +69,7 @@ function NewMainPage() {
                       />
                     </ToolTip>
                   </a>
-                </div>
+                </div> */}
               </div>
               <Projects />
             </div>
@@ -84,9 +85,10 @@ function NewMainPage() {
               {/* TODO: Change these to be what match with your information*/}
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
-                I'm a Senior at Tulane University, graduating in Spring of 2024
-                with a BSE in Engineering Physics and Computer Science
+                I'm a Junior at Tulane University, graduating in Spring of 2025
+                with a BSE in Engineering Physics and certificate in Mechanical Engineering currently looking for internships in the NY Metro Area
               </p>
+              <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
               <span id="desc">
                 I have designed this website using ReactJS, HTML, and CSS. The
                 repository for this website can be found{" "}
@@ -121,10 +123,10 @@ function NewMainPage() {
                     </ToolTip>
                   </a>
                 </div>
-                <div>
+                {/* <div>
                   <p>GitHub</p>
                   {/* TODO: Replace with something else */}
-                  <a href="https://www.github.com/MadBeignet">
+                  {/* <a href="https://www.github.com/MadBeignet">
                     <ToolTip title="View Github">
                       <img
                         alt="none :("
@@ -134,7 +136,7 @@ function NewMainPage() {
                       />
                     </ToolTip>
                   </a>
-                </div>
+                </div> */}
               </span>
               <Projects />
             </div>

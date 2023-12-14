@@ -25,6 +25,15 @@ import prototype from "./prototype.JPG";
 import prototype_radio from "./prototype_radio.JPG";
 import explanation from "./explanation.png";
 import trussbust1 from './trussbust1.HEIC';
+import flicker1 from './flicker1.HEIC';
+import matlab1 from './matlab1.jpg';
+import truss2 from './truss2.HEIC';
+import truss3 from './truss3.png';
+import truss4 from './truss4.png';
+import flicker2 from './flicker1.jpg';
+import flicker3 from './flicker3.png';
+import flicker4 from './flicker4.png';
+import legolab1 from './legolab1.png';
 
 export {
   filelines,
@@ -54,4 +63,13 @@ export {
   prototype_radio,
   explanation,
   trussbust1,
+  flicker1,
+  matlab1,
+  truss2,
+  truss3,
+  truss4,
+  flicker2,
+  flicker3,
+  flicker4,
+  legolab1,
 };

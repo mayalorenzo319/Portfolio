@@ -1,12 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 // TODO: These function names will be different depending on what they were named in GetProject.js
 import {
-  CurrentWaterSensors,
-  MachineManager,
-  NextFavoriteArtist,
-  JoustRemake,
-  MoireCapstone,
+  // CurrentWaterSensors,
+  // MachineManager,
+  // NextFavoriteArtist,
+  // JoustRemake,
+  // MoireCapstone,
   TrussBust,
+  Flicker,
+  ShrinkageCalculator,
+  LegoLab,
 } from "./GetProject";
 import Resume from "./Resume";
 import NewMainPage from "./NewMainPage";
@@ -19,13 +22,11 @@ export default function GetRoutes() {
       <Route path="/" element={<NewMainPage />} />
       <Route path="resume" element={<Resume />} />
       {/* <Route path="projects" element={<Projects />} /> */}
-      <Route path="current-water-sensors" element={<CurrentWaterSensors />} />
-      <Route path="makerspace-machine-manager" element={<MachineManager />} />
-      <Route path="next-fav-artist" element={<NextFavoriteArtist />} />
-      <Route path="joust-remake" element={<JoustRemake />} />
-      <Route path="moire" element={<MoireCapstone />} />
       <Route path="china-wall-moment" element={<ChinaWallMoment />} />
       <Route path="truss-bust" element={<TrussBust />} />
+      <Route path="flicker" element={<Flicker />} />
+      <Route path="shrinkage-calculator" element={<ShrinkageCalculator />} />
+      <Route path="LegoLab" element={<LegoLab/>}/>
       {/*<Route path="double-pendulum-project" element={<DoublePendulum />} /> */}
     </Routes>
   );

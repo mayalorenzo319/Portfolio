@@ -27,46 +27,32 @@ export default function Hamburger() {
             <a href="/resume">
               <input type="button" className="menu-label2" value="Resume" />
             </a>
-            <a href="/moire">
-              <input
-                type="button"
-                className="menu-label2"
-                value="Moiré Sensor Nodes"
-              />
-            </a>
-            <a href="/current-water-sensors">
-              <input
-                type="button"
-                className="menu-label2"
-                value="Water Sensors"
-              />
-            </a>
-            <a href="/makerspace-machine-manager">
-              <input
-                type="button"
-                className="menu-label2"
-                value="Machine Manager"
-              />
-            </a>
-            <a href="/next-fav-artist">
-              <input
-                type="button"
-                className="menu-label2"
-                value="Next Favorite Artist"
-              />
-            </a>
-            <a href="/joust-remake">
-              <input
-                type="button"
-                className="menu-label2"
-                value="Joust Remake"
-              />
-            </a>
             <a href="/truss-bust">
               <input
                 type="button"
                 className="menu-label2"
                 value="Truss Bust"
+              />
+            </a>
+            <a href="/flicker">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Flicker"
+              />
+            </a>
+            <a href="/ShrinkageCalculator">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Shrinkage Calculator"
+              />
+            </a>
+            <a href="/LegoLab">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Lego Lab"
               />
             </a>
           </ul>

@@ -14,7 +14,16 @@ import {
   spriterun,
   prototype_radio,
   explanation,
-  trussbust1,
+  // trussbust1,
+  // flicker1,
+  matlab1,
+  truss2,
+  truss3,
+  truss4,
+  flicker2,
+  flicker3,
+  flicker4,
+  // legolab1
 } from "../images";
 // import "../MainPage/App.css";
 import "./Project.css";
@@ -34,40 +43,54 @@ export function CurrentWaterSensors() {
       " This information was then accessed by a webpage, which displayed the sensors at their respective locations and indicated their water level visually on the map. In later stages of this project, we began using ReactJS to represent our sensors on a map. Throughout this project, I learned the basics of Web Development using ReactJS and how to effectively prototype with an end goal in mind.",
     ],
     images: [updatedsensor, false, mapexample, false],
-    icon: updatedwatersensoricon,
+   icon: updatedwatersensoricon,
   });
 }
 export function TrussBust() {
   return OnePager({
-    projectTitle: "",
-    problem: "",
-    solution: "",
-    image1: trussbust1,
-    execution: ["",""],
-    images: [trussbust1, true, trussbust1, false],
+    projectTitle: "Truss Bust",
+    problem: "Design and construct a truss structure that supports a 20-lb load, embodying support for individuals with ALS while maximixing load capacity and minimizing material usage within provided constraints.",
+    solution: "My group decided that a warren truss was the structure that we would like to use.",
+    image1: truss4,
+    execution: ["I worked in a group and we started drawings up how we would like our bridge to support the load as well as ideal size. We used inkscape to design our members and gussets. We laser cut our pieces using an epilog engraver and 3-ply wood.", 
+    "Using wood glue we were able to construct our truss carefully to match the drawing as closely as possible. Our hardwork paid off as we were able to win the award for most accurate calculations."],
+    images: [truss3, false, truss2, true],
     icon: updatedwatersensoricon,
   })
 }
-export function Project2() {
+export function Flicker() {
   return OnePager({
-    projectTitle: "",
-    problem: "",
-    solution: "",
-    image1: the3sensors,
+    projectTitle: "Flicker",
+    problem: " Users with mobility and sight issues need a way to remotely turn their lights on and off without the risk of injuring themselves",
+    solution: "A wall attachment that would have something that would interface with the light switch and a mechanism to connect to a remote/app that would flip the switch into the correct position on command",
+    image1: flicker2,
+    execution: ["Our initial thought was a small 3d printed housing unit and a rotating arm attatched to a motor. We decided to primarly use Fusion360 and arduino to control the stepper motor. We quickly learned that in order to power a stepper motor with enough torque to flip a light switch and a bluetooth reciever was quite a bit and added a bulk to the prototype ",
+    "In the end, we had a semi-working prototype, which was able to accept commands from a bluetooth phone app. Unfortunately, we were unable to test its overall durability, due to the unit being heavier than antcipated because of the amount of power required to run the stepper motor."],
+    images: [flicker4, false, flicker3, false],
+    icon: updatedwatersensoricon,
+  })
+}
+export function ShrinkageCalculator() {
+  return OnePager({
+    projectTitle: "Shrinkage Calculator",
+    problem: "NEED TO FIND MORE PICTURES",
+    solution: "ALSO NEED TO FIND THE WRITE UP FOR THIS",
+    image1: matlab1,
     execution: ["",""],
     images: [updatedsensor, false, mapexample, false],
     icon: updatedwatersensoricon,
   })
 }
-export function Project3() {
+
+export function LegoLab(){
   return OnePager({
-    projectTitle: "",
-    problem: "",
-    solution: "",
-    image1: the3sensors,
-    execution: ["",""],
-    images: [updatedsensor, false, mapexample, false],
-    icon: updatedwatersensoricon,
+    projectTitle: "Lego Lab",
+    problem: "DOES THIS HAVE A PROBLEM????",
+    solution: "PLEASE SEE ORIGINAL DISCUSSION",
+    image1: matlab1,
+    execution: ["NEED MORE PICTURES", ""],
+    images: [updatedsensor, false, mapexample, true],
+    icon: updatedwatersensoricon
   })
 }
 

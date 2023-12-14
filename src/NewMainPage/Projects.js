@@ -2,12 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // TODO: Update image imports
 import {
-  machinemanager,
-  watersensor,
-  nextfavartist2,
-  joustremakeimg,
-  prototype,
+  // machinemanager,
+  // watersensor,
+  // nextfavartist2,
+  // joustremakeimg,
+  // prototype,
   trussbust1,
+  flicker1,
+  matlab1,
+  // truss2,
+  // truss3,
+  // truss4,
+  legolab1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -31,63 +37,38 @@ function Projects() {
           </NavLink>
         </div>
         <div className="project-item">
-          <NavLink className="project-button" to="/moire">
-            <h5 className="project-desc">Moiré Sensor Nodes</h5>
+          <NavLink className="project-button" to="/flicker">
+            <h5 className="project-desc">Flicker</h5>
             <input
               type="image"
               alt="none :("
               className="project"
               id="tall"
-              src={prototype}
+              src={flicker1}
             />
           </NavLink>
         </div>
         <div className="project-item">
-          <NavLink className="project-button" to="/current-water-sensors">
-            <h5 className="project-desc">Current: Water Sensors</h5>
+          <NavLink className="project-button" to="/shrinkage-calculator">
+            <h5 className="project-desc">Shrinkage Calculator</h5>
             <input
               type="image"
               alt="none :("
               className="project"
               id="tall"
-              src={watersensor}
+              src={matlab1}
             />
           </NavLink>
         </div>
         <div className="project-item">
-          <NavLink className="project-button" to="/makerspace-machine-manager">
-            <h5 className="project-desc">Machine Manager</h5>
+          <NavLink className="project-button" to="/LegoLab">
+            <h5 className="project-desc">Lego Lab</h5>
             <input
               type="image"
               alt="none :("
               className="project"
               id="tall"
-              src={machinemanager}
-            />
-          </NavLink>
-        </div>
-
-        <div className="project-item">
-          <NavLink className="project-button" to="/next-fav-artist">
-            <h5 className="project-desc">Next Favorite Artist</h5>
-            <input
-              type="image"
-              alt="none :("
-              className="project"
-              id="really-tall"
-              src={nextfavartist2}
-            />
-          </NavLink>
-        </div>
-        <div className="project-item">
-          <NavLink className="project-button" to="/joust-remake">
-            <h5 className="project-desc">Joust Remake</h5>
-            <input
-              type="image"
-              alt="none :("
-              className="project"
-              id="tall"
-              src={joustremakeimg}
+              src={legolab1}
             />
           </NavLink>
         </div>
