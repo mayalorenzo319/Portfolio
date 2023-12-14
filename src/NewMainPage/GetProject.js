@@ -63,7 +63,7 @@ export function Flicker() {
     projectTitle: "Flicker",
     problem: " Users with mobility and sight issues need a way to remotely turn their lights on and off without the risk of injuring themselves",
     solution: "A wall attachment that would have something that would interface with the light switch and a mechanism to connect to a remote/app that would flip the switch into the correct position on command",
-    image1: flicker2,
+    image1: [flicker2,false],
     execution: ["Our initial thought was a small 3d printed housing unit and a rotating arm attatched to a motor. We decided to primarly use Fusion360 and arduino to control the stepper motor. We quickly learned that in order to power a stepper motor with enough torque to flip a light switch and a bluetooth reciever was quite a bit and added a bulk to the prototype ",
     "In the end, we had a semi-working prototype, which was able to accept commands from a bluetooth phone app. Unfortunately, we were unable to test its overall durability, due to the unit being heavier than antcipated because of the amount of power required to run the stepper motor."],
     images: [flicker4, false, flicker3, false],
