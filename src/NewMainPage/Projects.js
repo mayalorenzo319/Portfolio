@@ -14,6 +14,7 @@ import {
   // truss3,
   // truss4,
   legolab1,
+  shrink1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -56,7 +57,7 @@ function Projects() {
               alt="none :("
               className="project"
               id="tall"
-              src={matlab1}
+              src={shrink1}
             />
           </NavLink>
         </div>

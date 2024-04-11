@@ -23,6 +23,7 @@ import {
   flicker2,
   flicker3,
   flicker4,
+  shrink1,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -73,11 +74,11 @@ export function Flicker() {
 export function ShrinkageCalculator() {
   return OnePager({
     projectTitle: "Shrinkage Calculator",
-    problem: "NEED TO FIND MORE PICTURES",
+    problem: "My partner and I wanted to find a mathematical way to help people with curly hair plan for how the weather will affect their hair, something that can be hard to predict but very important for daily planning.",
     solution: "ALSO NEED TO FIND THE WRITE UP FOR THIS",
     image1: matlab1,
     execution: ["",""],
-    images: [updatedsensor, false, mapexample, false],
+    images: [shrink1, true, shrink1, false],
     icon: updatedwatersensoricon,
   })
 }
