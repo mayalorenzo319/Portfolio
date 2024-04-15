@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "./Projects";
 
 import { filelines, linkedin } from "../images";
-import resume from "../documents/resume-lorenzo-maya.pdf";
+import resume from "../documents/Resume-Lorenzo-Maya.pdf";
 import ToolTip from "@mui/material/Tooltip";
 
 function NewMainPage() {
