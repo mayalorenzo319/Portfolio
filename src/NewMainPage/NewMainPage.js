@@ -91,7 +91,7 @@ function NewMainPage() {
               <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
               <span id="desc">
                 I have designed this website using ReactJS, HTML, and CSS. The
-                repository for this website can be found{" "}
+                repository for this website can be found{" "}*under construction*
                 <a
                   className="github-repo-link"
                   href="https://github.com/MadBeignet/Portfolio"

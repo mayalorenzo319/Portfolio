@@ -24,6 +24,7 @@ import {
   flicker3,
   flicker4,
   shrink1,
+  legolab1,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -84,16 +85,17 @@ export function ShrinkageCalculator() {
 }
 
 export function LegoLab(){
-  return OnePager({
-    projectTitle: "Lego Lab",
-    problem: "DOES THIS HAVE A PROBLEM????",
-    solution: "PLEASE SEE ORIGINAL DISCUSSION",
-    image1: matlab1,
-    execution: ["NEED MORE PICTURES", ""],
-    images: [updatedsensor, false, mapexample, true],
-    icon: updatedwatersensoricon
+  return ShortProject({
+    imgs: [legolab1, "short", spriterun, "small"],
+    descriptions: [
+      "We used Fusion360 to create an assembly piece ...",
+      "Measured all of the pieces",
+    ],
+    descriptionTitles: ["Intro"],
+    imgs: [explanation, "tall", prototype_radio, "short"],
   })
 }
+
 
 export function MachineManager() {
   return OnePager({
