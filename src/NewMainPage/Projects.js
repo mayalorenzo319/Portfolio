@@ -57,7 +57,7 @@ function Projects() {
               alt="none :("
               className="project"
               id="tall"
-              src={shrink1}
+              src={matlab1}
             />
           </NavLink>
         </div>

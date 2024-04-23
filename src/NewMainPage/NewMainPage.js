@@ -24,7 +24,7 @@ function NewMainPage() {
               {/* TODO: You probably don't want this line to be like this */}
               <span id="desc">
                 I have designed this website using ReactJS, HTML, and CSS. The
-                repository for this website can be found{" "}
+                repository for this website can be found{" "} *under construction*
                 <a
                   className="github-repo-link"
                   href="https://github.com/MadBeignet/Portfolio"
