@@ -77,7 +77,7 @@ export function ShrinkageCalculator() {
     projectTitle: "Shrinkage Calculator",
     problem: "My partner and I wanted to find a mathematical way to help people with curly hair plan for how the weather will affect their hair, something that can be hard to predict but very important for daily planning.",
     solution: "ALSO NEED TO FIND THE WRITE UP FOR THIS",
-    image1: matlab11,
+    image1: matlab1,
     execution: ["",""],
     images: [shrink1, true, shrink1, false],
     icon: updatedwatersensoricon,
