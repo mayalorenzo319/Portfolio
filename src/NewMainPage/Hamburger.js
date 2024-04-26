@@ -41,7 +41,7 @@ export default function Hamburger() {
                 value="Flicker"
               />
             </a>
-            <a href="/ShrinkageCalculator">
+            <a href="/Shrinkage-calculator">
               <input
                 type="button"
                 className="menu-label2"

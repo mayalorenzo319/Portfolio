@@ -14,7 +14,6 @@ import {
   // truss3,
   // truss4,
   legolab1,
-  shrink1,
 } from "../images";
 import "./NewMainPage.css";
 

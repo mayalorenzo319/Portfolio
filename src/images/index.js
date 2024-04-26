@@ -35,6 +35,8 @@ import flicker3 from './flicker3.png';
 import flicker4 from './flicker4.png';
 import legolab1 from './legolab1.png';
 import shrink1 from './shrink1.png';
+import legolab2 from './legolab2.png';
+import legolab3 from './legolab3.png';
 
 export {
   filelines,
@@ -73,5 +75,7 @@ export {
   flicker3,
   flicker4,
   legolab1,
-  shrink1
+  shrink1,
+  legolab2,
+  legolab3
 };
