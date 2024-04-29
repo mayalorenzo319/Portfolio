@@ -30,6 +30,9 @@ import {
   fbookshelf1,
   coaster1,
   fbookshelf2,
+  shrink_3,
+  back_board,
+  cover_holder,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -70,10 +73,10 @@ export function Flicker() {
     projectTitle: "Flicker",
     problem: " Users with mobility and sight issues need a way to remotely turn their lights on and off without the risk of injuring themselves",
     solution: "A wall attachment that would have something that would interface with the light switch and a mechanism to connect to a remote/app that would flip the switch into the correct position on command",
-    image1: flicker2,
+    image1: flicker3,
     execution: ["Our initial thought was a small 3d printed housing unit and a rotating arm attatched to a motor. We decided to primarly use Fusion360 and arduino to control the stepper motor. We quickly learned that in order to power a stepper motor with enough torque to flip a light switch and a bluetooth reciever was quite a bit and added a bulk to the prototype ",
     "In the end, we had a semi-working prototype, which was able to accept commands from a bluetooth phone app. Unfortunately, we were unable to test its overall durability, due to the unit being heavier than antcipated because of the amount of power required to run the stepper motor."],
-    images: [flicker4, false, flicker3, false],
+    images: [flicker2, false, flicker4, false],
     icon: updatedwatersensoricon,
   });
 }
@@ -83,14 +86,16 @@ export function ShrinkageCalculator() {
     problem: "My partner and I wanted to find a mathematical way to help people with curly hair plan for how the weather will affect their hair, something that can be hard to predict but very important for daily planning.",
     solution: "Creating an equation that would take into account the main contributors to chnages in hair size over time",
     image1: matlab1,
-    execution: ["",""],
-    images: [shrink1, true, shrink1, "small"],
+    execution: ["Using the equation for estimation of shrinkage, we created functions in Matlab for both main hair types (high porosity and low porosity) to allow for user input to make the function more personalized for each user",
+    ""],
+    images: [shrink_3, false, shrink1, false],
     icon: updatedwatersensoricon,
   });
 }
 
 export function LegoLab(){
   return ShortProject({
+    title: "Lego Lab",
     imgs: [legolab3, "tall", legolab2, "short"],
     descriptions: [
       "We used Fusion360 to create and assemble the pieces with ",
@@ -100,18 +105,31 @@ export function LegoLab(){
   });
 }
 export function FBookshelf(){
-  return ShortProject({
+  return(
+  <div>{ShortProject({
+    title: "Floating Bookshelf",
+    line: true,
     imgs: [fbookshelf1, "short", fbookshelf2, "small"],
     descriptions: [
       "Wanted to make a make to hang my books in a most aestethic way",
       "Made using aluminum sheet, water jet, bending brake, rivets",
     ],
     descriptionTitles: ["Intro"],
-  });
+  })}
+{ShortProject({
+    line: false,
+    imgs: [back_board, "tall", cover_holder, "tall"],
+    descriptions: [
+      "",
+      "",
+    ],
+    descriptionTitles: [""],
+  })}</div>)
 }
 
 export function Coaster(){
   return ShortProject({
+    title: "Coaster",
     imgs: [coaster1, "short", spriterun, "small"],
     descriptions: [
       "We used Fusion360 to create ",
@@ -335,8 +353,12 @@ function ShortProject(props) {
             <h2>{props.title}</h2>
           </div>
         )}
-
-        <div className="information-grid">
+      <div className={
+            props.line === false
+              ? "information-grid-no-line"
+              : "information-grid"
+          }
+        >
           <div className="information-row">
             <img
               id={props.imgs[1] || ""}
@@ -361,7 +383,7 @@ function ShortProject(props) {
               src={props.imgs[2] || null}
             />
           </div>
-        </div>
+          </div>
       </div>
       <div className="mobile-display">
         <div className="project-title">

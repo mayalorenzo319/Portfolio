@@ -8,14 +8,14 @@ import {
   // joustremakeimg,
   // prototype,
   trussbust1,
-  flicker1,
-  matlab1,
   // truss2,
   // truss3,
   // truss4,
   legolab1,
-  fbookshelf1,
+  fbookshelf2,
   coaster1,
+  curl_calc_1,
+  flicker_tit,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -46,7 +46,7 @@ function Projects() {
               alt="none :("
               className="project"
               id="tall"
-              src={flicker1}
+              src={flicker_tit}
             />
           </NavLink>
         </div>
@@ -58,7 +58,7 @@ function Projects() {
               alt="none :("
               className="project"
               id="tall"
-              src={matlab1}
+              src={curl_calc_1}
             />
           </NavLink>
         </div>
@@ -82,7 +82,7 @@ function Projects() {
             alt="none :("
             className="project"
             id="tall"
-            src={fbookshelf1}
+            src={fbookshelf2}
             />
           </NavLink>
         </div>

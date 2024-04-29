@@ -40,6 +40,11 @@ import legolab3 from './legolab3.png';
 import fbookshelf1 from './floating_bookshelf_1.png';
 import coaster1 from './coaster1.png';
 import fbookshelf2 from './fbookshelf2.pdf';
+import shrink_3 from './shrink_3.jpeg';
+import back_board from './back_board_d.pdf';
+import cover_holder from './cover_holder_d.pdf';
+import curl_calc_1 from './curl_calc_1.png';
+import flicker_tit from './flicker_tit.png';
 
 export {
   filelines,
@@ -83,5 +88,10 @@ export {
   legolab3,
   fbookshelf1,
   coaster1,
-  fbookshelf2
+  fbookshelf2,
+  shrink_3,
+  back_board,
+  cover_holder,
+  curl_calc_1,
+  flicker_tit,
 };
