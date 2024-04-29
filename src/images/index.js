@@ -37,6 +37,7 @@ import legolab1 from './legolab1.png';
 import shrink1 from './shrink1.png';
 import legolab2 from './legolab2.png';
 import legolab3 from './legolab3.png';
+import fbookshelf1 from './floating_bookshelf_1.png';
 
 export {
   filelines,
@@ -77,5 +78,6 @@ export {
   legolab1,
   shrink1,
   legolab2,
-  legolab3
+  legolab3,
+  fbookshelf1
 };

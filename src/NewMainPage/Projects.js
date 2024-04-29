@@ -14,6 +14,7 @@ import {
   // truss3,
   // truss4,
   legolab1,
+  fbookshelf1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -69,6 +70,18 @@ function Projects() {
               className="project"
               id="tall"
               src={legolab1}
+            />
+          </NavLink>
+        </div>
+        <div className="project-item">
+          <NavLink className="project-button" to="/fbookshelf">
+            <h5 className="project-desc">Floating Bookshelf</h5>
+            <input 
+            type="image"
+            alt="none :("
+            className="project"
+            id="tall"
+            src={fbookshelf1}
             />
           </NavLink>
         </div>

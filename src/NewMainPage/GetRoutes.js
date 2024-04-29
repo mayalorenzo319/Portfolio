@@ -10,6 +10,7 @@ import {
   Flicker,
   ShrinkageCalculator,
   LegoLab,
+  fbookshelf
 } from "./GetProject";
 import Resume from "./Resume";
 import NewMainPage from "./NewMainPage";
@@ -27,6 +28,7 @@ export default function GetRoutes() {
       <Route path="flicker" element={<Flicker />} />
       <Route path="shrinkage-calculator" element={<ShrinkageCalculator />} />
       <Route path="LegoLab" element={<LegoLab/>}/>
+      <Route path="fbookshelf" element={<fbookshelf />} />
       {/*<Route path="double-pendulum-project" element={<DoublePendulum />} /> */}
     </Routes>
   );

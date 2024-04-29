@@ -27,6 +27,7 @@ import {
   legolab1,
   legolab2,
   legolab3,
+  fbookshelf1,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -60,7 +61,7 @@ export function TrussBust() {
     "Using wood glue we were able to construct our truss carefully to match the drawing as closely as possible. Our hardwork paid off as we were able to win the award for most accurate calculations."],
     images: [truss3, false, truss2, true],
     icon: updatedwatersensoricon,
-  })
+  });
 }
 export function Flicker() {
   return OnePager({
@@ -72,7 +73,7 @@ export function Flicker() {
     "In the end, we had a semi-working prototype, which was able to accept commands from a bluetooth phone app. Unfortunately, we were unable to test its overall durability, due to the unit being heavier than antcipated because of the amount of power required to run the stepper motor."],
     images: [flicker4, false, flicker3, false],
     icon: updatedwatersensoricon,
-  })
+  });
 }
 export function ShrinkageCalculator() {
   return OnePager({
@@ -83,7 +84,7 @@ export function ShrinkageCalculator() {
     execution: ["",""],
     images: [shrink1, true, shrink1, true],
     icon: updatedwatersensoricon,
-  })
+  });
 }
 
 export function LegoLab(){
@@ -95,9 +96,19 @@ export function LegoLab(){
     ],
     descriptionTitles: ["Intro"],
     imgs: [legolab3, "tall", legolab2, "short"],
-  })
+  });
 }
-
+export function fbookshelf(){
+  return ShortProject({
+    imgs: [fbookshelf1, "short", fbookshelf1, "small"],
+    descriptions: [
+      "Used the waterjet",
+      "Rivet gun to ",
+    ],
+    descriptionTitles: ["Intro"],
+    imgs: [legolab1, "tall", legolab2, "short"],
+  });
+}
 
 
 
