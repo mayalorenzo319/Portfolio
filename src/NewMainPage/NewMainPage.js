@@ -18,7 +18,7 @@ function NewMainPage() {
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
                 I'm a Junior at Tulane University, graduating in Spring of 2025
-                with a BSE in Engineering Physics and certificate in Mechanical Engineering currently looking for internships in the NY Metro Area
+                with a BSE in Engineering Physics and certificate in Mechanical Engineering
               </p>
               <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
               {/* TODO: You probably don't want this line to be like this */}
@@ -86,7 +86,7 @@ function NewMainPage() {
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
                 I'm a Junior at Tulane University, graduating in Spring of 2025
-                with a BSE in Engineering Physics and certificate in Mechanical Engineering currently looking for internships in the NY Metro Area
+                with a BSE in Engineering Physics and certificate in Mechanical Engineering
               </p>
               <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
               <span id="desc">
