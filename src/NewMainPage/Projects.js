@@ -98,6 +98,18 @@ function Projects() {
             />
           </NavLink>
         </div>
+        <div className="project-item">
+          <NavLink className="project-button" to="/BonsaiTree">
+            <h5 className="project-desc">Hobby:Bonsai Tree</h5>
+            <input
+              type="image"
+              alt="none :("
+              className="project"
+              id="tall"
+              src={coaster1}
+            />
+          </NavLink>
+        </div>
       </div>
     </div>
   );

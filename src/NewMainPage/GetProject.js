@@ -139,6 +139,17 @@ export function Coaster(){
   });
 }
 
+export function BonsaiTree(){
+  return ShortProject({
+    title: "Bonsai Tree",
+    imgs: [coaster1, "short", spriterun, "small"],
+    descriptions: [
+      "I wanted to get more practice in using Fusion360 ",
+      "I decided to make a bonsai tree from the lego website",
+    ],
+    descriptionTitles: ["g"],
+  });
+}
 
 export function MachineManager() {
   return OnePager({
