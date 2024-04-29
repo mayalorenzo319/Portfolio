@@ -55,6 +55,20 @@ export default function Hamburger() {
                 value="Lego Lab"
               />
             </a>
+            <a href="/FBookshelf">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Floating Bookshelf"
+              />
+            </a>
+            <a href="/Coaster">
+              <input
+                type="button"
+                className="menu-label2"
+                value="3D Printer Coaster"
+              />
+            </a>
           </ul>
         </nav>
       </label>

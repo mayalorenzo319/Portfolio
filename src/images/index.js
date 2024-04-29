@@ -24,10 +24,10 @@ import spriterun from "./spriterun.gif";
 import prototype from "./prototype.JPG";
 import prototype_radio from "./prototype_radio.JPG";
 import explanation from "./explanation.png";
-import trussbust1 from './trussbust1.HEIC';
-import flicker1 from './flicker1.HEIC';
+import trussbust1 from './trussbust1.pdf';
+import flicker1 from './flicker1.pdf';
 import matlab1 from './matlab1.jpg';
-import truss2 from './truss2.HEIC';
+import truss2 from './truss2.pdf';
 import truss3 from './truss3.png';
 import truss4 from './truss4.png';
 import flicker2 from './flicker1.jpg';
@@ -38,6 +38,8 @@ import shrink1 from './shrink1.png';
 import legolab2 from './legolab2.png';
 import legolab3 from './legolab3.png';
 import fbookshelf1 from './floating_bookshelf_1.png';
+import coaster1 from './coaster1.png';
+import fbookshelf2 from './fbookshelf2.pdf';
 
 export {
   filelines,
@@ -79,5 +81,7 @@ export {
   shrink1,
   legolab2,
   legolab3,
-  fbookshelf1
+  fbookshelf1,
+  coaster1,
+  fbookshelf2
 };

@@ -24,10 +24,12 @@ import {
   flicker3,
   flicker4,
   shrink1,
-  legolab1,
+  //legolab1,
   legolab2,
   legolab3,
   fbookshelf1,
+  coaster1,
+  fbookshelf2,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -79,37 +81,45 @@ export function ShrinkageCalculator() {
   return OnePager({
     projectTitle: "Shrinkage Calculator",
     problem: "My partner and I wanted to find a mathematical way to help people with curly hair plan for how the weather will affect their hair, something that can be hard to predict but very important for daily planning.",
-    solution: "ALSO NEED TO FIND THE WRITE UP FOR THIS",
+    solution: "Creating an equation that would take into account the main contributors to chnages in hair size over time",
     image1: matlab1,
     execution: ["",""],
-    images: [shrink1, true, shrink1, true],
+    images: [shrink1, true, shrink1, "small"],
     icon: updatedwatersensoricon,
   });
 }
 
 export function LegoLab(){
   return ShortProject({
-    imgs: [legolab1, "short", spriterun, "small"],
+    imgs: [legolab3, "tall", legolab2, "short"],
     descriptions: [
       "We used Fusion360 to create and assemble the pieces with ",
       "Measured all of the pieces",
     ],
     descriptionTitles: ["Intro"],
-    imgs: [legolab3, "tall", legolab2, "short"],
   });
 }
-export function fbookshelf(){
+export function FBookshelf(){
   return ShortProject({
-    imgs: [fbookshelf1, "short", fbookshelf1, "small"],
+    imgs: [fbookshelf1, "short", fbookshelf2, "small"],
     descriptions: [
-      "Used the waterjet",
-      "Rivet gun to ",
+      "Wanted to make a make to hang my books in a most aestethic way",
+      "Made using aluminum sheet, water jet, bending brake, rivets",
     ],
     descriptionTitles: ["Intro"],
-    imgs: [legolab1, "tall", legolab2, "short"],
   });
 }
 
+export function Coaster(){
+  return ShortProject({
+    imgs: [coaster1, "short", spriterun, "small"],
+    descriptions: [
+      "We used Fusion360 to create ",
+      "Measured all of the pieces and printed using 3D printer",
+    ],
+    descriptionTitles: ["Intro"],
+  });
+}
 
 
 export function MachineManager() {

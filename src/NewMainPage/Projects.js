@@ -15,6 +15,7 @@ import {
   // truss4,
   legolab1,
   fbookshelf1,
+  coaster1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -82,6 +83,18 @@ function Projects() {
             className="project"
             id="tall"
             src={fbookshelf1}
+            />
+          </NavLink>
+        </div>
+        <div className="project-item">
+          <NavLink className="project-button" to="/Coaster">
+            <h5 className="project-desc">3D Printer Coaster</h5>
+            <input
+              type="image"
+              alt="none :("
+              className="project"
+              id="tall"
+              src={coaster1}
             />
           </NavLink>
         </div>
