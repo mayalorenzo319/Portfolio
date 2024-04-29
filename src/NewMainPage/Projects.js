@@ -33,7 +33,7 @@ function Projects() {
               type="image"
               alt="none :("
               className="project"
-              id="tall"
+              id="small"
               src={trussbust1}
             />
           </NavLink>
@@ -81,7 +81,7 @@ function Projects() {
             type="image"
             alt="none :("
             className="project"
-            id="tall"
+            id="small"
             src={fbookshelf2}
             />
           </NavLink>

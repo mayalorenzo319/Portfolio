@@ -41,8 +41,8 @@ import fbookshelf1 from './floating_bookshelf_1.png';
 import coaster1 from './coaster1.png';
 import fbookshelf2 from './fbookshelf2.pdf';
 import shrink_3 from './shrink_3.jpeg';
-import back_board from './back_board_d.pdf';
-import cover_holder from './cover_holder_d.pdf';
+import back_board from './back_board_d.png';
+import cover_holder from './cover_holder_d.png';
 import curl_calc_1 from './curl_calc_1.png';
 import flicker_tit from './flicker_tit.png';
 

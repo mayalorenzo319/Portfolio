@@ -109,7 +109,7 @@ export function FBookshelf(){
   <div>{ShortProject({
     title: "Floating Bookshelf",
     line: true,
-    imgs: [fbookshelf1, "short", fbookshelf2, "small"],
+    imgs: [fbookshelf1, "short", fbookshelf2, "tall"],
     descriptions: [
       "Wanted to make a make to hang my books in a most aestethic way",
       "Made using aluminum sheet, water jet, bending brake, rivets",
