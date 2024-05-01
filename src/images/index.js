@@ -47,6 +47,9 @@ import curl_calc_1 from './curl_calc_1.png';
 import flicker_tit from './flicker_tit.png';
 import ring_1 from './ring_1.jpeg';
 import ring_d from './ring_d.png';
+import bonsai_1 from './bonsai_1.png';
+import bonsai_b6 from './bonsai_6.png';
+import bonsai_b1 from './bonsai_b1.png';
 
 export {
   filelines,
@@ -98,4 +101,7 @@ export {
   flicker_tit,
   ring_1,
   ring_d,
+  bonsai_1,
+  bonsai_b6,
+  bonsai_b1,
 };

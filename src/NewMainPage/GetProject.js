@@ -35,6 +35,8 @@ import {
   cover_holder,
   ring_1,
   ring_d,
+  bonsai_b6,
+  bonsai_b1,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -144,10 +146,10 @@ export function Coaster(){
 export function BonsaiTree(){
   return ShortProject({
     title: "Bonsai Tree",
-    imgs: [coaster1, "short", spriterun, "small"],
+    imgs: [bonsai_b6, "small", bonsai_b1, "small"],
     descriptions: [
-      "I wanted to get more practice in using Fusion360 ",
-      "I decided to make a bonsai tree from the lego website",
+      "I wanted to get more practice in using Fusion360, so I decided to make a bonsai tree from the lego website",
+      "Currently working on: Tolerance issues involving pieces that have studs on 2 sides",
     ],
     descriptionTitles: [""],
   });
