@@ -16,6 +16,7 @@ import {
   coaster1,
   curl_calc_1,
   flicker_tit,
+  ring_1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -105,14 +106,14 @@ function Projects() {
               type="image"
               alt="none :("
               className="project"
-              id="tall"
-              src={coaster1}
+              id="small"
+              src={ring_1}
             />
           </NavLink>
         </div>
         <div className="project-item">
           <NavLink className="project-button" to="/BonsaiTree">
-            <h5 className="project-desc">Hobby:Bonsai Tree</h5>
+            <h5 className="project-desc">Hobby: Bonsai Tree</h5>
             <input
               type="image"
               alt="none :("

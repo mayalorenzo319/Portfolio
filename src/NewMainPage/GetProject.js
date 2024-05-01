@@ -33,6 +33,8 @@ import {
   shrink_3,
   back_board,
   cover_holder,
+  ring_1,
+  ring_d,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -154,10 +156,10 @@ export function BonsaiTree(){
 export function AlumRing(){
   return ShortProject({
     title: "Aluminum Ring",
-    imgs: [coaster1, "short", spriterun, "small"],
+    imgs: [ring_1, "short", ring_d, "tall"],
     descriptions: [
-      "Used the lathe ",
-      "I decided to make a bonsai tree from the lego website",
+      "Using an aluminum rod in the CNC lathe ",
+      "Completed using Lathe in coversational mode with the ---- toolheads",
     ],
     descriptionTitles: [""],
   });

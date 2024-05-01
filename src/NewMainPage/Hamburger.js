@@ -69,18 +69,18 @@ export default function Hamburger() {
                 value="3D Printer Coaster"
               />
             </a>
-            <a href="/BonsaiTree">
-              <input
-              type="button"
-              className="menu-label2"
-              value="Bonsai Tree"
-              />
-            </a>
             <a href="/AlumRing">
               <input
               type="button"
               className="menu-label2"
               value="Aluminum Ring"
+              />
+            </a>
+            <a href="/BonsaiTree">
+              <input
+              type="button"
+              className="menu-label2"
+              value="Bonsai Tree"
               />
             </a>
           </ul>

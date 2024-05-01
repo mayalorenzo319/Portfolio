@@ -45,6 +45,8 @@ import back_board from './back_board_d.png';
 import cover_holder from './cover_holder_d.png';
 import curl_calc_1 from './curl_calc_1.png';
 import flicker_tit from './flicker_tit.png';
+import ring_1 from './ring_1.jpeg';
+import ring_d from './ring_d.png';
 
 export {
   filelines,
@@ -94,4 +96,6 @@ export {
   cover_holder,
   curl_calc_1,
   flicker_tit,
+  ring_1,
+  ring_d,
 };
