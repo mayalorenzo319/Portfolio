@@ -76,6 +76,13 @@ export default function Hamburger() {
               value="Bonsai Tree"
               />
             </a>
+            <a href="/AlumRing">
+              <input
+              type="button"
+              className="menu-label2"
+              value="Aluminum Ring"
+              />
+            </a>
           </ul>
         </nav>
       </label>

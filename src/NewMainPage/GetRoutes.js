@@ -13,6 +13,7 @@ import {
   FBookshelf, 
   Coaster,
   BonsaiTree,
+  AlumRing,
 } from "./GetProject";
 import Resume from "./Resume";
 import NewMainPage from "./NewMainPage";
@@ -33,6 +34,7 @@ export default function GetRoutes() {
       <Route path="FBookshelf" element={<FBookshelf />} />
       <Route path="Coaster" element={<Coaster/>}/>
       <Route path="BonsaiTree" element={<BonsaiTree/>}/>
+      <Route path="AlumRing" element={<AlumRing/>}/>
       {/*<Route path="double-pendulum-project" element={<DoublePendulum />} /> */}
     </Routes>
   );

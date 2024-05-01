@@ -147,7 +147,19 @@ export function BonsaiTree(){
       "I wanted to get more practice in using Fusion360 ",
       "I decided to make a bonsai tree from the lego website",
     ],
-    descriptionTitles: ["g"],
+    descriptionTitles: [""],
+  });
+}
+
+export function AlumRing(){
+  return ShortProject({
+    title: "Aluminum Ring",
+    imgs: [coaster1, "short", spriterun, "small"],
+    descriptions: [
+      "Used the lathe ",
+      "I decided to make a bonsai tree from the lego website",
+    ],
+    descriptionTitles: [""],
   });
 }
 
