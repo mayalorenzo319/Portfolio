@@ -91,7 +91,7 @@ export function ShrinkageCalculator() {
     solution: "Creating an equation that would take into account the main contributors to chnages in hair size over time",
     image1: matlab1,
     execution: ["Using the equation for estimation of shrinkage, we created functions in Matlab for both main hair types (high porosity and low porosity) to allow for user input to make the function more personalized for each user",
-    "Future plans:"],
+    "Future plans: More data for a more accurate equation"],
     images: [shrink_3, false, shrink1, false],
     icon: updatedwatersensoricon,
   });
