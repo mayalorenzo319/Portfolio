@@ -55,6 +55,13 @@ export default function Hamburger() {
                 value="Lego Lab"
               />
             </a>
+            <a href="/BusiCards">
+              <input
+                type="button"
+                className="menu-label2"
+                value="Business Cards"
+              />
+            </a>
             <a href="/FBookshelf">
               <input
                 type="button"

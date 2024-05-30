@@ -77,6 +77,18 @@ function Projects() {
           </NavLink>
         </div>
         <div className="project-item">
+          <NavLink className="project-button" to="/BusiCards">
+            <h5 className="project-desc">Aluminum Business Cards</h5>
+            <input
+              type="image"
+              alt="none :("
+              className="project"
+              id="tall"
+              src={legolab1}
+            />
+          </NavLink>
+        </div>
+        <div className="project-item">
           <NavLink className="project-button" to="/fbookshelf">
             <h5 className="project-desc">Floating Bookshelf</h5>
             <input 
