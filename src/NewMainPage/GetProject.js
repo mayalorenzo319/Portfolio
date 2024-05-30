@@ -145,7 +145,7 @@ export function Coaster(){
 
 export function BonsaiTree(){
   return ShortProject({
-    title: "Bonsai Tree",
+    title: "Hobby: Bonsai Tree",
     imgs: [bonsai_b6, "small", bonsai_b1, "small"],
     descriptions: [
       "I wanted to get more practice in using Fusion360, so I decided to make a bonsai tree from the lego website",

@@ -80,7 +80,7 @@ export default function Hamburger() {
               <input
               type="button"
               className="menu-label2"
-              value="Bonsai Tree"
+              value="Hobby: Bonsai Tree"
               />
             </a>
           </ul>
