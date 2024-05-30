@@ -160,8 +160,8 @@ export function AlumRing(){
     title: "Aluminum Ring",
     imgs: [ring_1, "short", ring_d, "tall"],
     descriptions: [
-      "Using an aluminum rod in the CNC lathe ",
-      "Completed using Lathe in coversational mode with the ---- toolheads",
+      "Using aluminum stock in the CNC lathe ",
+      "Operations used in conversational mode: Facing, OD Turn, Tapping, ID Turn ",
     ],
     descriptionTitles: [""],
   });
