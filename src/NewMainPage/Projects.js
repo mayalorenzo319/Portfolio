@@ -90,7 +90,7 @@ function Projects() {
         </div>
         <div className="project-item">
           <NavLink className="project-button" to="/Coaster">
-            <h5 className="project-desc">3D Printer Coaster</h5>
+            <h5 className="project-desc">3D Printed Coaster</h5>
             <input
               type="image"
               alt="none :("

@@ -116,7 +116,7 @@ export function FBookshelf(){
     imgs: [fbookshelf1, "short", fbookshelf2, "tall"],
     descriptions: [
       "Wanted to make a make to hang my books in a most aestethic way",
-      "Made using aluminum sheet, water jet, bending brake, rivets",
+      "Made using an aluminum sheet, water jet, bending brake, and rivets",
     ],
     descriptionTitles: ["Intro"],
   })}
@@ -124,7 +124,7 @@ export function FBookshelf(){
     line: false,
     imgs: [back_board, "tall", cover_holder, "tall"],
     descriptions: [
-      "",
+      "Made with Fusion360 using dimensions based on measurements from some of my books",
       "",
     ],
     descriptionTitles: [""],

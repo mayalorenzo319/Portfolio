@@ -66,7 +66,7 @@ export default function Hamburger() {
               <input
                 type="button"
                 className="menu-label2"
-                value="3D Printer Coaster"
+                value="3D Printed Coaster"
               />
             </a>
             <a href="/AlumRing">
