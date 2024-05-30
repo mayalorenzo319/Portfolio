@@ -102,10 +102,10 @@ export function BusiCards() {
   return OnePager({
     projectTitle: "Aluminum Business Cards",
     problem: "I wanted to showcase my abilities in a tangible way to present at networking events",
-    solution: "Using the epilog engraver",
+    solution: "Using the epilog engraver and anodized aluminum sheets that ",
     image1: busicards_2,
-    execution: ["Using the equation for estimation of shrinkage, we created functions in Matlab for both main hair types (high porosity and low porosity) to allow for user input to make the function more personalized for each user",
-    "Future plans: More data for a more accurate equation"],
+    execution: ["Created a QR code, then inverting the black and white space to make sure that when the QR code is engraved it can be scanned",
+    "Worked to"],
     images: [shrink_3, false, busicards_1, false],
     icon: updatedwatersensoricon,
   });
