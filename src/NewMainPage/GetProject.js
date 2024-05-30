@@ -100,10 +100,10 @@ export function ShrinkageCalculator() {
 export function LegoLab(){
   return ShortProject({
     title: "Lego Lab",
-    imgs: [legolab3, "tall", legolab2, "short"],
+    imgs: [legolab2, "tall", legolab3, "short"],
     descriptions: [
-      "We used Fusion360 to create and assemble the pieces with ",
-      "Measured all of the pieces",
+      "Measured all of the pieces using calipers to get the most accurate dimensions",
+      "Using Fusion360 to create and assemble the pieces with a maximum allowable interference volume of 0.001 in^3 ",
     ],
     descriptionTitles: ["Intro"],
   });
