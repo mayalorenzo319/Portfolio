@@ -149,7 +149,7 @@ export function BonsaiTree(){
     imgs: [bonsai_b6, "small", bonsai_b1, "small"],
     descriptions: [
       "I wanted to get more practice in using Fusion360, so I decided to make a bonsai tree from the lego website",
-      "Currently working on: Tolerance issues involving pieces that have studs on 2 sides",
+      "Currently working on: Base legs for tree stand to not be a rigid joint",
     ],
     descriptionTitles: [""],
   });
