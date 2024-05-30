@@ -18,6 +18,7 @@ import {
   flicker_tit,
   ring_1,
   bonsai_1,
+  busicards_1,
 } from "../images";
 import "./NewMainPage.css";
 
@@ -84,7 +85,7 @@ function Projects() {
               alt="none :("
               className="project"
               id="tall"
-              src={legolab1}
+              src={busicards_1}
             />
           </NavLink>
         </div>

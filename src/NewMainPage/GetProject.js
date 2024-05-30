@@ -37,6 +37,8 @@ import {
   ring_d,
   bonsai_b6,
   bonsai_b1,
+  busicards_1,
+  busicards_2,
   // legolab1
 } from "../images";
 // import "../MainPage/App.css";
@@ -99,12 +101,12 @@ export function ShrinkageCalculator() {
 export function BusiCards() {
   return OnePager({
     projectTitle: "Aluminum Business Cards",
-    problem: "My partner and I wanted to find a mathematical way to help people with curly hair plan for how the weather will affect their hair, something that can be hard to predict but very important for daily planning.",
-    solution: "Creating an equation that would take into account the main contributors to chnages in hair size over time",
-    image1: matlab1,
+    problem: "I wanted to showcase my abilities in a tangible way to present at networking events",
+    solution: "Using the epilog engraver",
+    image1: busicards_2,
     execution: ["Using the equation for estimation of shrinkage, we created functions in Matlab for both main hair types (high porosity and low porosity) to allow for user input to make the function more personalized for each user",
     "Future plans: More data for a more accurate equation"],
-    images: [shrink_3, false, shrink1, false],
+    images: [shrink_3, false, busicards_1, false],
     icon: updatedwatersensoricon,
   });
 }

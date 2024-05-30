@@ -50,6 +50,8 @@ import ring_d from './ring_d.png';
 import bonsai_1 from './bonsai_1.png';
 import bonsai_b6 from './bonsai_6.png';
 import bonsai_b1 from './bonsai_b1.png';
+import busicards_1 from './busicards_1.png';
+import busicards_2 from './busicards_2.png';
 
 export {
   filelines,
@@ -104,4 +106,6 @@ export {
   bonsai_1,
   bonsai_b6,
   bonsai_b1,
+  busicards_1,
+  busicards_2,
 };
