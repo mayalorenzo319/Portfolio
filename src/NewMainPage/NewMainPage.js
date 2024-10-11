@@ -17,7 +17,7 @@ function NewMainPage() {
               {/* TODO: Change these to be what match with your information*/}
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
-                I'm a Junior at Tulane University, graduating in Spring of 2025
+                I'm a Senior at Tulane University, graduating in Spring of 2025
                 with a BSE in Engineering Physics and certificate in Mechanical Engineering
               </p>
               <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
@@ -85,7 +85,7 @@ function NewMainPage() {
               {/* TODO: Change these to be what match with your information*/}
               <h2>Hi, I'm Maya Lorenzo!</h2>
               <p>
-                I'm a Junior at Tulane University, graduating in Spring of 2025
+                I'm a senior at Tulane University, graduating in Spring of 2025
                 with a BSE in Engineering Physics and certificate in Mechanical Engineering
               </p>
               <p>Please feel free to contact me at mayalorenzo17@gmail.com or 201.205.8759 </p>
